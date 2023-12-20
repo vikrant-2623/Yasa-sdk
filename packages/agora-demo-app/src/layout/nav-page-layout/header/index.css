@@ -1,0 +1,53 @@
+.nav-header .back {
+  height: 40px;
+  width: 70px;
+  margin: 0 22px;
+  border-radius: 14px;
+  background-color: rgba(138, 138, 138, 0.1);
+  background-image: url(../../../assets/fcr_nav_back.svg);
+  background-size: 48px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.nav-header .content {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 40px;
+  /* Gray 1 */
+  color: #030303;
+}
+
+
+
+
+header.fcr-layout-header .header-actions .action-icon.btn_action {
+  align-items: center;
+  justify-content: center;
+  background: #3a3a3a;
+  width: 48px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+header.fcr-layout-header .header-actions .action-icon.btn_action svg {
+  width: 17px !important;
+  height: 17px !important;
+}
+
+header.fcr-layout-header .header-actions .action-icon.btn_action p {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+  margin: 0 0 2px;
+}
+
+header.fcr-layout-header .header-actions .action-icon.btn_action {
+  flex-direction: column !important;
+}
+
+header.fcr-layout-header .header-actions .action-icon.btn_action svg>g {
+  transform: translate(5px, 5px);
+  -webkit-transform: translate(5px, 5px);
+}

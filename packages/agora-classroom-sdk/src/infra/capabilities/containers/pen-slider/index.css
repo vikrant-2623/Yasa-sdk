@@ -1,0 +1,49 @@
+.expand-tools.left-tools-wrap {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  z-index: 1;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.expand-tools.left-tools-wrap .ltc-tools .expand-tool,
+.expand-tools.left-tools-wrap .ltc-colors .expand-tool {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.expand-tools.left-tools-wrap .ltc-colors .expand-tool {
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 0px !important;
+  margin: 0;
+}
+
+.expand-tools.left-tools-wrap .ltc-colors .expand-tool .circle {
+  border-radius: 0px !important;
+  height: 24px !important;
+  width: 24px !important;
+}
+
+.expand-tools.left-tools-wrap .ltc-tools {
+  gap: 5px;
+  background: #514F4F;
+  padding: 5px;
+}
+
+.expand-tools.left-tools-wrap .ltc-tools .can-hover {
+  border-radius: 0px;
+  padding: 4px;
+}
+
+.expand-tools.left-tools-wrap .ltc-tools .can-hover:hover {
+  background: #1b1b1b;
+}
+
+.expand-tools.left-tools-wrap .ltc-tools .can-hover:hover svg path {
+  fill: #ffffff;
+}

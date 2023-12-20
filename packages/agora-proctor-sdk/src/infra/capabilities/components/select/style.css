@@ -1,0 +1,124 @@
+.fcr-select-label {
+  font-family: 'Montserrat Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 21px;
+  color: #030303;
+}
+
+.fcr-select {
+  box-sizing: border-box;
+  height: 48px;
+}
+
+.fcr-select input,
+.fcr-select .select {
+  font-size: 12px;
+  line-height: 18px;
+  outline: none;
+  border: 1px solid #e3e7ef;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #030303;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  z-index: 1;
+}
+
+.fcr-select .select a:link,
+.fcr-select .select a:hover,
+.fcr-select .select a:active,
+.fcr-select .select a:visited {
+  color: #030303;
+}
+
+.fcr-select input::placeholder,
+.fcr-select .placeholder-text {
+  color: #bbbbbb;
+}
+
+.fcr-select input:focus:not(:read-only),
+.fcr-select .select.expand {
+  border-color: #030303;
+  box-shadow: 0 0 0px 3px rgb(143, 144, 152, 0.2);
+}
+
+.fcr-select .options {
+  padding: 2px;
+  z-index: 10;
+}
+
+.fcr-select .option {
+  font-family: 'Montserrat Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #030303;
+  padding: 9px 12px;
+}
+
+.fcr-select .option:hover {
+  font-weight: 800;
+  color: #1e1e1e;
+  border-radius: 8px;
+  background: #f8f8f8;
+}
+
+.fcr-select .option.selected {
+  font-weight: 800;
+}
+
+.fcr-select .error input,
+.fcr-select .select.error {
+  border-color: #f5655c !important;
+  box-shadow: 0 0 0px 3px rgba(245, 101, 92, 0.2) !important;
+}
+
+.fcr-select .error-text {
+  color: #f5655c;
+  font-size: 12px;
+  bottom: -24px;
+}
+/** dark **/
+.fcr-select .dark {
+  background: #3d404b;
+  color: #fff;
+  border: 1px solid #4a4c5f;
+}
+.fcr-select .dark:hover {
+  border: 1px solid #fff;
+}
+.fcr-select .dark input:focus:not(:read-only),
+.fcr-select .expand:is(.dark) {
+  border-color: #fff;
+  box-shadow: 0 0 0px 3px rgb(143, 144, 152, 0.2);
+}
+
+.fcr-select .dark a:link,
+.fcr-select .dark a:hover,
+.fcr-select .dark a:active,
+.fcr-select .dark a:visited {
+  color: #fff;
+}
+.fcr-select .dark .placeholder-text:link,
+.fcr-select .dark .placeholder-text:hover,
+.fcr-select .dark .placeholder-text:active,
+.fcr-select .dark .placeholder-text:visited {
+  color: #bbbbbb;
+}
+
+.fcr-select .dark .option {
+  font-family: 'Montserrat Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  padding: 9px 12px;
+}
+
+.fcr-select .dark .option:hover {
+  font-weight: 800;
+  color: #fff;
+  border-radius: 8px;
+  background: #3d404b;
+}

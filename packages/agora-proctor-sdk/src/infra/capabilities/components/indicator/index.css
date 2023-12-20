@@ -1,0 +1,98 @@
+.volume-indicator {
+  position: absolute;
+  left: 6px;
+  bottom: 6px;
+  width: 24px;
+  height: 24px;
+  background-color: #5765ff;
+  border-radius: 30px;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  align-items: center;
+  transition: all 0.25s ease-in-out;
+}
+
+.volume-indicator .indicator-1,
+.volume-indicator .indicator-2,
+.volume-indicator .indicator-3 {
+  background-color: #fff;
+  width: 2px;
+  border-radius: 2px;
+}
+
+.volume-indicator .indicator-1,
+.volume-indicator .indicator-3 {
+  height: 8px;
+}
+
+.volume-indicator .indicator-2 {
+  height: 13px;
+}
+
+.volume-indicator .indicator-1 {
+  animation: 1.2s indicator-1-anim 0.08s infinite linear;
+}
+
+.volume-indicator .indicator-2 {
+  animation: 1s indicator-2-anim 0.1s infinite linear;
+}
+
+.volume-indicator .indicator-3 {
+  animation: 1.6s indicator-3-anim 0.2s infinite linear;
+}
+
+.volume-indicator.low .indicator-1,
+.volume-indicator.low .indicator-2,
+.volume-indicator.low .indicator-3 {
+  animation-duration: 1.8s;
+}
+
+.volume-indicator.medium .indicator-1,
+.volume-indicator.medium .indicator-2,
+.volume-indicator.medium .indicator-3 {
+  animation-duration: 1s;
+}
+
+.volume-indicator.high .indicator-1,
+.volume-indicator.high .indicator-2,
+.volume-indicator.high .indicator-3 {
+  animation-duration: 0.6s;
+}
+
+@keyframes indicator-1-anim {
+  20% {
+    transform: scaleY(10%);
+  }
+  30% {
+    transform: scaleY(100%);
+  }
+  50% {
+    transform: scaleY(20%);
+  }
+}
+
+@keyframes indicator-2-anim {
+  30% {
+    transform: scaleY(80%);
+  }
+  50% {
+    transform: scaleY(20%);
+  }
+  20% {
+    transform: scaleY(100%);
+  }
+}
+
+@keyframes indicator-3-anim {
+  10% {
+    transform: scaleY(20%);
+  }
+  40% {
+    transform: scaleY(100%);
+  }
+  50% {
+    transform: scaleY(30%);
+  }
+}

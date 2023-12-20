@@ -1,0 +1,120 @@
+.page-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+  left: 0;
+  top: 0;
+  background: #1b1b1b;
+}
+.card-loading-position {
+  position: relative;
+}
+.page-loading-text {
+  @apply text-level1;
+  position: absolute;
+  bottom: -50px;
+  white-space: nowrap;
+}
+
+
+
+/* loader  */
+
+@keyframes loadingC {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.loading {
+  position: absolute;
+  left: 50%;
+  right: 0;
+  top: 50%;
+  color: #FFF;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  width: auto;
+  text-align: center;
+}
+
+.line {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 14px;
+  background-color: #ff894c;
+  margin: 5px;
+}
+
+.load-3 .line:nth-last-child(1) {
+  animation: loadingC 0.6s 0.1s linear infinite;
+}
+.load-3 .line:nth-last-child(2) {
+  animation: loadingC 0.6s 0.2s linear infinite;
+}
+.load-3 .line:nth-last-child(3) {
+  animation: loadingC 0.6s 0.3s linear infinite;
+}
+.loading p {
+  font-size: 30px;
+  margin: 0px 0 0px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+
+.loader-14 {
+  width: 25vw;
+  height: 25vw;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.2;
+}
+.loader-14::after , .loader-14::before {
+  content: '';
+  width : 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  border:5px solid #ffffff;
+  position: absolute;
+  left:0;
+  top: 0;
+  opacity: 0;
+  animation: animloader14 3s linear infinite;
+}
+.loader-14::after {
+  animation-delay: 1.5s;
+}
+
+@keyframes animloader14 {
+  0% { transform: scale(0); opacity: 1;}
+  100% { transform: scale(1); opacity: 0;}
+}

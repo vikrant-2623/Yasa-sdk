@@ -1,0 +1,34 @@
+.fcr-track-player {
+  width: 100%;
+  height: 100%;
+}
+.fcr-track-player video {
+  object-fit: contain;
+}
+.fcr-track-player-fullscreen {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.fcr-track-player-fullscreen-cover,
+.fcr-track-player-fullscreen-cover-top {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: none;
+  z-index: 1;
+}
+.fcr-track-player-fullscreen:hover .fcr-track-player-fullscreen-cover {
+  display: block;
+}
+.fcr-track-player-fullscreen-cover-top {
+  top: -10px;
+  bottom: auto;
+}
+.fcr-track-player-fullscreen-btn {
+  position: absolute;
+  right: 22px;
+  bottom: 22px;
+}

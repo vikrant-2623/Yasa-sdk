@@ -1,0 +1,13 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@tailwind screens;
+
+html,
+html body {
+  /* @apply font-scenario; */
+  font-family: 'Rajdhani', sans-serif !important;
+}

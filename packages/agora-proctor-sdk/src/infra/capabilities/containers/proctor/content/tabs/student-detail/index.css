@@ -1,0 +1,203 @@
+.fcr-student-detail-tab {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  padding-right: 0;
+}
+.fcr-student-detail-tab .fcr-student-detail-tab-replay,
+.fcr-student-detail-tab .fcr-student-detail-tab-live {
+  flex: 1;
+  background: #6b6e81;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.fcr-student-detail-tab-info {
+  width: 90px;
+}
+.fcr-student-detail-tab-info > div {
+  margin-bottom: 30px;
+}
+.fcr-student-detail-tab .fcr-student-detail-tab-replay {
+  margin-right: 20px;
+}
+
+.fcr-student-detail-tab-replay-bottom,
+.fcr-student-detail-tab-live-bottom {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.fcr-student-detail-tab-replay-bottom-title {
+  display: flex;
+  align-items: center;
+  padding: 0 28px;
+  height: 64px;
+  line-height: 64px;
+}
+.fcr-student-detail-tab-replay-bottom-title span {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* fcr_white */
+  padding-left: 29px;
+  color: #ffffff;
+}
+.fcr-student-detail-tab-live-bottom-title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* fcr_white */
+  color: #ffffff;
+  text-align: center;
+  padding: 16px 28px;
+}
+.fcr-student-detail-tab-replay-bottom-list {
+  flex: 1;
+  padding: 0 12px;
+  overflow: auto;
+}
+.fcr-student-detail-tab-replay-bottom-list-item {
+  width: 100%;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  cursor: pointer;
+}
+.fcr-student-detail-tab-replay-bottom-list-item:hover {
+  background: rgba(52, 52, 52, 0.4);
+  backdrop-filter: blur(25px);
+}
+.fcr-student-detail-tab-replay-bottom-list-item-active {
+  background: #357bf6;
+}
+.fcr-student-detail-tab-replay-bottom-list-item > div:first-child {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  width: 20px;
+}
+.fcr-student-detail-tab-replay-bottom-list-item > div:nth-child(2) {
+  display: flex;
+  color: #fff;
+  flex: 1;
+  padding-left: 80px;
+  align-items: center;
+}
+.fcr-student-detail-tab-replay-bottom-list-item > div:last-child {
+  width: 40px;
+}
+.fcr-student-detail-tab-replay-bottom-list-item-logo {
+  background: rgba(52, 52, 52, 0.9);
+  opacity: 0.8;
+  backdrop-filter: blur(50px);
+
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+}
+.fcr-student-detail-tab-replay-bottom-list-item-info {
+  padding-left: 17px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 42px;
+}
+.fcr-student-detail-tab-replay-bottom-list-item-type {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 800;
+}
+.fcr-student-detail-tab-replay-bottom-list-item-desc {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 3px;
+  /* fcr_trans_white */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.fcr-student-detail-tab-live-bottom {
+  padding: 0 20px;
+}
+.fcr-student-detail-tab-live-bottom-suspicious {
+  height: 221px;
+  width: 100%;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #333641b2 0%, rgba(51, 54, 65, 0) 100%);
+}
+.fcr-student-detail-tab-live-bottom-suspicious-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  text-align: center;
+
+  /* fcr_white */
+
+  color: #ffffff;
+  padding: 33px 0 24px;
+}
+.fcr-alarm {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fcr-student-detail-tab-live-bottom-suspicious-btns {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.fcr-student-detail-tab-live-bottom-suspicious-btns > div {
+  width: 350px;
+  margin-bottom: 10px;
+}
+.fcr-student-detail-tab-live-bottom-suspicious-submit {
+  width: 350px;
+  border-radius: 10px;
+}
+.fcr-student-detail-tab-live-bottom-suspicious-select .ant-select-arrow {
+  margin-top: -10px;
+}
+.fcr-student-detail-tab-live-bottom-suspicious-select .ant-select-item {
+  color: #bdbec6;
+}
+.fcr-student-detail-tab-live-bottom-suspicious-select-popup
+  .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: #3d404b;
+  color: #fff;
+}
+.fcr-student-detail-tab-live-bottom-suspicious-select-popup {
+  background-color: #3d404b;
+  color: #bdbec6;
+}
+.fcr-student-detail-tab-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fcr-student-detail-tab-info-abnormal {
+  position: absolute;
+  right: -10px;
+  bottom: -10px;
+  z-index: 9;
+}

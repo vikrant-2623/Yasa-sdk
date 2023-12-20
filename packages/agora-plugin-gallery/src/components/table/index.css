@@ -1,0 +1,186 @@
+.table-flex-container {
+  @apply flex;
+  @apply flex-col;
+}
+
+.table-row-item {
+  @apply flex;
+  @apply flex-row;
+  font-size: 13px;
+  /* padding-left: 19px; */
+}
+
+.table-col-item {
+  @apply text-level1;
+  @apply flex;
+  @apply flex-1;
+  @apply items-center;
+  font-size: 13px;
+  /* font-family: PingFangSC-Regular, PingFang SC; */
+  font-weight: 400;
+  /* justify-content: center; */
+}
+
+.table-header {
+  @apply flex;
+  @apply flex-1;
+  @apply flex-row;
+  @apply bg-icon-selected-color;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 10px 0;
+  padding-left: 19px;
+  @apply border-bottom-width-1 border-divider;
+  line-height: 20px;
+}
+.agora-board-resources .border-bottom-width-1 {
+  @apply border-divider;
+}
+
+.border-bottom-width-1 {
+  border-bottom-width: 1px;
+  margin: 0px 0px -1px -1px;
+}
+
+.item-gap-10 {
+  gap: 10px;
+}
+
+.table-row-x-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+.flex-width-9 {
+  flex: 9px 0 0;
+}
+
+.flex-width-20 {
+  flex: 20px 0 0;
+}
+
+.inline {
+  line-height: 20px;
+  word-break: break-all;
+  height: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.margin-gap {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 19px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.btn-group {
+  margin: 0 0 10px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.table-container {
+  overflow-y: auto;
+  box-sizing: content-box;
+  height: 275px;
+}
+
+/*  */
+.roster-wrap {
+  background: #323232;
+  border-color: #323232;
+}
+
+.roster-wrap .main-title {
+  background-color: #444444;
+  border-color: #7c7c7c;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.roster-wrap .roster-container {
+  background: transparent;
+  border-style: none;
+  color: #ffffff;
+}
+
+.roster-wrap .roster-container .carousel-desc {
+  color: #ffffff;
+}
+
+.roster-wrap .roster-container .search-teacher-name ,
+.roster-wrap .roster-container label {
+  color: #ffffff;
+}
+
+.roster-wrap .roster-container .react-select__single-value {
+  color: #ffffff;
+}
+.roster-wrap .roster-container input,
+.roster-wrap .roster-container .react-select__control {
+  color: #ffffff;
+  border-color: #4f4f4f;
+}
+.roster-wrap .roster-container .react-select__control:hover {
+  background-color: #4f4f4f ;
+}
+.react-select__indicators svg path {
+  fill: #a1a1a1 !important;
+  display: inline-block !important;
+}
+.roster-wrap .roster-container  .input-search {
+      padding-top: 5px;
+  padding-bottom: 5px
+}
+.roster-wrap .roster-container input:placeholder {
+  color:#ffffff;
+}
+.roster-wrap .roster-container input::placeholder {
+  color: #ffffff;
+}
+
+.roster-wrap .roster-container span.roster-username {
+  color: #ffffff;
+}
+
+.roster-wrap .roster-container .table-header {
+  background: #4f4f4f;
+  border-color: #4f4f4f;
+  color: #ffffff;
+}
+
+.roster-wrap .roster-container .table-col-item {
+  color: #ffffff;
+}
+
+.roster-wrap .roster-container  .roster-table {
+  border-color: #4f4f4f;
+}
+
+.roster-wrap .roster-container  .border-bottom-width-1 {
+  border-color: #4f4f4f;
+}
+
+.roster-wrap .roster-container .fcr-input-wrapper, 
+.roster-wrap .roster-container .order-select{
+  border-color: #4f4f4f;
+}
+
+
+.roster-wrap .roster-container .roster-col-hover .clickable {
+  background: #1d1d1d !important;
+}
+
+.roster-wrap .roster-container .table-row-item.roster-row-hover {
+  background: #2e2e2e;
+}
+
+
+

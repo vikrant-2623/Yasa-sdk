@@ -1,0 +1,108 @@
+.fcr-proctor-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-top: 10px;
+  overflow: hidden;
+}
+.fcr-proctor-content .ant-tabs {
+  flex: 1;
+  overflow: hidden;
+}
+.fcr-proctor-content-tabs .ant-tabs-nav .ant-tabs-nav-list .ant-tabs-tab {
+  border-radius: 16px 16px 0 0;
+}
+.fcr-proctor-content-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+.fcr-proctor-content-tabs .ant-tabs-nav .ant-tabs-tab,
+.fcr-proctor-content-tabs .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab {
+  border: none;
+}
+.fcr-proctor-content-tabs .ant-tabs-nav::before {
+  border-bottom: 0;
+}
+.fcr-proctor-content-tabs .ant-tabs-nav {
+  margin-bottom: 0;
+}
+.fcr-proctor-content .ant-tabs-content-holder {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+}
+.fcr-proctor-content .ant-tabs-tabpane-active {
+  width: 100%;
+  height: 100%;
+}
+.fcr-proctor-content-footer {
+  height: 116px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fcr-proctor-content-tag-segmented {
+  border-radius: 50px;
+  padding: 6px;
+  background-color: #f4f7ff;
+}
+.fcr-proctor-content-tag-segmented .ant-segmented-item-label {
+  min-height: 38px;
+  line-height: 38px;
+  padding: 0 36px;
+  font-size: 16px;
+}
+.fcr-proctor-content-tag-segmented .ant-segmented-item-selected,
+.fcr-proctor-content-tag-segmented .ant-segmented-thumb {
+  background-color: #000;
+  color: #fff;
+  border-radius: 38px;
+}
+.fcr-proctor-content-layout-segmented {
+  border-radius: 12px;
+  padding: 0;
+  background-color: #fff;
+  margin-right: 26px;
+}
+.fcr-proctor-content-layout-segmented .ant-segmented-item-label {
+  min-height: 40px;
+  line-height: 40px;
+  padding: 2px 8px;
+  display: flex;
+  align-items: center;
+}
+.fcr-proctor-content-layout-segmented .ant-segmented-item-selected,
+.fcr-proctor-content-layout-segmented .ant-segmented-thumb {
+  background-color: #000;
+  border-radius: 12px;
+}
+.fcr-proctor-content-tab-label {
+  display: flex;
+  align-items: center;
+}
+.fcr-proctor-content-footer-leave {
+  padding-right: 54px;
+}
+.fcr-proctor-content-footer-leave-btn-group .ant-btn,
+.fcr-proctor-content-footer-leave-btn-group-popover .ant-btn {
+  height: 50px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  justify-content: center;
+}
+.fcr-proctor-content-footer-leave-btn-group .ant-btn svg,
+.fcr-proctor-content-footer-leave-btn-group-popover .ant-btn svg {
+  margin-right: 10px;
+}
+.fcr-proctor-content-footer-leave-btn-group-popover .ant-popover-inner {
+  border-radius: 16px;
+}
+.fcr-proctor-content-tabs-transparent > .ant-tabs-nav .ant-tabs-tab-active {
+  background: transparent;
+}

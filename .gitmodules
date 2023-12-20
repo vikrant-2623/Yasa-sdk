@@ -1,0 +1,18 @@
+[submodule "packages/agora-rte-sdk"]
+	path = packages/agora-rte-sdk
+	url = ssh://git@git.agoralab.co/aduc/agora-scene-sdk.git
+[submodule "packages/agora-edu-core"]
+	path = packages/agora-edu-core
+	url = ssh://git@git.agoralab.co/aduc/agora-edu-core-desktop.git
+[submodule "packages/agora-classroom-sdk"]
+	path = packages/agora-classroom-sdk
+	url = ../cloudclass-desktop.git
+[submodule "packages/agora-plugin-gallery"]
+	path = packages/agora-plugin-gallery
+	url = ../apaas-widgets-web.git
+[submodule "packages/agora-proctor-sdk"]
+	path = packages/agora-proctor-sdk
+	url = ../proctor-desktop.git
+[submodule "packages/agora-common-libs"]
+	path = packages/agora-common-libs
+	url = ssh://git@git.agoralab.co/aduc/apaas-common-libs-web.git

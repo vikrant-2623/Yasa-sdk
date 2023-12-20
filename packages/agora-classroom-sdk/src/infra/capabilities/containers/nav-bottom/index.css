@@ -1,0 +1,92 @@
+.bottom-nav-wrap {
+    display: flex;
+    width: calc(100% - 350px);
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-nav-wrap .scenes-controller-btn-list .action-icon .fcr-card.can-hover {
+    width: auto !important;
+    height: auto !important;
+    border-radius: 4px !important;
+    color: #B9B9B9;
+    font-weight: 600;
+}
+
+.bottom-nav-wrap .scenes-controller-btn-list {
+    padding: 0;
+    gap: 15px;
+}
+
+.bottom-nav-wrap .scenes-controller-btn-list .action-icon .can-hover {
+    padding: 6px;
+    background: #514f4f;
+    border-radius: 5px !important;
+}
+
+.bottom-nav-wrap .scenes-controller-btn-list .action-icon .can-hover:hover {
+    background: #B9B9B9;
+}
+
+.bottom-nav-wrap .scenes-controller-btn-list .action-icon .can-hover svg {
+    width: 24px;
+    height: 24px;
+}
+.bottom-nav-wrap .scenes-controller-btn-list .action-icon .can-hover svg .handpath {  
+    fill: none;
+    stroke: #B9B9B9;
+    stroke-width: 2.01709;
+}
+.header-actions .action-icon .can-hover svg .settingPath{
+    fill: none;
+}
+
+.room-state-wrapper .fcr-biz-header-title {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+header.fcr-layout-header {
+    align-items: flex-end;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.dark-popup .popover-inner-content {
+    background:#514f4f !important;
+}
+
+/* 12122023 */
+.bottom-tool-wrap .toolbar.opened .tools .tool {
+    margin: 0 !important;
+}
+.bottom-nav-wrap div:first-child .record-tips {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background: #ffffff;
+    line-height: 1.2;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    transform: translate(0%, -100%);
+}
+
+.bottom-nav-wrap div:first-child .record-tips:before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #ffffff;
+    display: inline-block;
+    transform: rotate(45deg);
+    top: 15px;
+}

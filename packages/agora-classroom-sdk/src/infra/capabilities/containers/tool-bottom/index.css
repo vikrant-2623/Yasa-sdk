@@ -1,0 +1,21 @@
+.bottom-nav-wrap .bottom-tool-wrap .scenes-controller-container {
+    position: relative !important;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 4px;
+    background-color: #514f4f;
+}
+
+.bottom-nav-wrap .bottom-tool-wrap .scenes-controller-container .scenes-controller-info {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.bottom-nav-wrap .bottom-tool-wrap .scenes-controller-container .scenes-controller-btn-list {
+    gap: 5px;
+}
+.can-hover svg path {
+    fill: #d8d8e1;
+}
+

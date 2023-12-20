@@ -1,0 +1,271 @@
+.fcr_proctor_sider {
+  min-height: 100vh;
+  padding: 25px 28px 28px;
+  flex: 0 0 254px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fcr_proctor_sider_logo {
+  padding-bottom: 27px;
+}
+
+.fcr_proctor_sider_info_title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #bdbec6;
+  padding-bottom: 5px;
+}
+.fcr_proctor_sider_info_val {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  overflow: hidden;
+  word-break: break-all;
+}
+.fcr_proctor_sider_info_wrap > div {
+  margin-bottom: 30px;
+}
+.fcr_proctor_sider_info_room_remaining {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-right: 7px;
+}
+.fcr_proctor_sider_info_room_remaining div:last-child {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+}
+.fcr_proctor_sider .ant-btn {
+  border-radius: 100px;
+  height: 32px;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.fcr_proctor_sider_info_proctor-actions {
+  width: 214px;
+  background: #fafafa;
+  border-radius: 24px;
+
+  transition: max-height 0.2s;
+  height: 361px;
+  max-height: 361px;
+  overflow: hidden;
+  position: relative;
+}
+.fcr_proctor_sider_info_proctor-actions > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.fcr_proctor_sider_info_proctor-actions > div > div {
+  width: 100%;
+}
+.fcr_proctor_sider_info_proctor-actions-video {
+  width: 178px;
+  height: 111px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #373a49;
+  position: relative;
+}
+.fcr_proctor_sider_info_proctor-actions-video-placeholder {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1.5px solid #4a4c5f;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.fcr_proctor_sider_info_proctor-actions-video-volume {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  z-index: 9;
+}
+.fcr_proctor_sider_info_proctor-actions-video-container {
+  border: 0.5px solid rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 8px;
+  overflow: hidden;
+  width: 195px;
+  margin: 0 auto;
+}
+.fcr_proctor_sider_info_proctor-actions-video-container-placeholder {
+  height: 130px;
+}
+.fcr_proctor_sider_info_proctor-actions-video-container-active {
+  border: 0.5px solid #5765ff;
+  border-radius: 20px;
+  padding: 8px;
+}
+.fcr_proctor_sider_info_proctor-actions-btn {
+  padding: 20px 14px;
+  width: 100%;
+  text-align: center;
+}
+.fcr_proctor_sider_info_proctor-actions-video-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fcr_proctor_sider .fcr_proctor_sider_info_proctor-actions-speaker > button {
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  font-size: 16px;
+}
+.fcr_proctor_sider_info_proctor-actions-speaker .ant-switch-small {
+  height: 18px;
+  line-height: 18px;
+}
+.fcr_proctor_sider_info_proctor-actions-speaker .ant-switch-handle {
+  width: 14px;
+  top: 3px;
+  left: 3px;
+}
+.fcr_proctor_sider_info_proctor-actions-speaker
+  .ant-switch-small.ant-switch-checked
+  .ant-switch-handle {
+  left: calc(100% - 14px - 3px);
+}
+.fcr_proctor_sider_info_proctor-actions-speaker .ant-switch {
+  background: #565656;
+}
+.fcr_proctor_sider_info_proctor-actions-speaker .ant-switch-checked {
+  background: #292929;
+}
+.fcr_proctor_sider .fcr_proctor_sider_info_proctor-actions-speaker {
+  position: relative;
+}
+.fcr_proctor_sider .fcr_proctor_sider_info_proctor-actions-speaker > button > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+}
+.fcr_proctor_sider_info_proctor-actions-speaker-extra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 2px;
+  top: 3px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  z-index: 3;
+  cursor: pointer;
+}
+.fcr_proctor_sider_info_proctor-actions-speaker-overlay {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+  background: linear-gradient(180deg, #d5ecf3 0%, #ffffff 38.1%, #ffffff 104.5%);
+  display: flex;
+  box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.14);
+  z-index: 1;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  flex-direction: column;
+  padding-top: 12px;
+  padding-bottom: 20px;
+  transition: max-height 0.2s;
+  overflow: hidden;
+  max-height: 132px;
+}
+.fcr_proctor_sider_info_proctor-actions-speaker-overlay > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 0 18px;
+}
+.fcr_proctor_sider_info_proctor-actions-speaker-overlay > div > div {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.fcr_proctor_sider_info_proctor-actions-speaker-extra:hover {
+  background: rgba(0, 0, 0, 0.14);
+}
+.fcr_proctor_sider .fcr_proctor_sider_info_proctor-actions-video-left {
+  width: 48px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 0;
+}
+.fcr_proctor_sider_info_proctor-actions-video-left svg {
+  width: 30px;
+  height: 30px;
+}
+.fcr_proctor_sider .fcr_proctor_sider_info_proctor-actions-video-right {
+  width: 133px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.fcr_proctor_sider_info_btn {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.fcr_proctor_sider_info_end,
+.fcr_proctor_sider_info_end:focus,
+.fcr_proctor_sider_info_end:hover {
+  background: #000000;
+  border-color: #000;
+}
+
+.fcr_proctor_sider_info_proctor-actions-name {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 30px 10px 0;
+}
+.fcr_proctor_sider_info_proctor-actions-name > div {
+  font-size: 12px;
+  line-height: 15px;
+
+  text-align: center;
+
+  color: #bdbec6;
+  padding-bottom: 73px;
+  padding-top: 8px;
+  font-weight: normal;
+}
